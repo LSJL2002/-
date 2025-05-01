@@ -7,19 +7,8 @@ class Complexnumbers:
     def __add__(self,operand):
         return Complexnumbers (self.a + operand.a, self.b + operand.b)
     
-
-
-A = Complexnumbers(1,2)
-B = Complexnumbers(3,4)
-
-C = A + B
-print(C)
-
-    '''
-    def subtraction(self,a,b):
-
+    def __subtract__(self, operand):
+        return Complexnumbers (self.a - operand.a, self.b - operand.b)
     
-    def inverse(self,a,b):
-
-    def multiplication(self,a,b):
-    '''
+    def __multiplication__(self, operand):
+        return Complexnumbers ()
