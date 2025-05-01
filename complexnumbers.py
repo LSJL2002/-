@@ -17,7 +17,7 @@ class Complex:
         return Complex(-self.a, -self.b)
     
     def __str__(self):
-        return f"{self.a} + {self.b}i"
+        return f"{self.a} + {self.b}i" if self.b >= 0 else f"{self.a} - {abs(self.b)}i"
     
 A = Complex(1,2)
 B = Complex(3,4)
