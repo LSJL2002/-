@@ -13,6 +13,9 @@ class Complexnumbers:
     def __multiplication__(self, operand):
         return Complexnumbers(self.a * operand.a - self.b * operand.b, self.a * operand.b + self.b * operand.a)
     
+    def __neg__(self):
+        return Complexnumbers(-self.a, -self.b)
+    
     def __str__(self):
         return f"{self.a} + {self.b}i"
     
