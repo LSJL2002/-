@@ -11,7 +11,7 @@ class Complexnumbers:
         return Complexnumbers (self.a - operand.a, self.b - operand.b)
     
     def __multiplication__(self, operand):
-        real =
+        real 
         img = 
         return Complexnumbers()
     
