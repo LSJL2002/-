@@ -17,3 +17,11 @@ class Complexnumbers:
     
     def __str__(self):
         return f"{self.a} + {self.b}i"
+    
+A = Complexnumbers(1,2)
+B = Complexnumbers(3,4)
+
+print(A + B)
+print(A - B)
+print(A * B)
+print(-A)
