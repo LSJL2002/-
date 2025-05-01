@@ -11,7 +11,7 @@ class Complexnumbers:
         return Complexnumbers (self.a - operand.a, self.b - operand.b)
     
     def __multiplication__(self, operand):
-        return Complexnumbers ()
+        return Complexnumbers(self.a * operand.a - self.b * operand.b, self.a * operand.b + self.b * operand.a)
     
     def __str__(self):
         return f"{self.a} + {self.b}i"
