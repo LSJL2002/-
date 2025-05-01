@@ -7,10 +7,10 @@ class Complexnumbers:
     def __add__(self,operand):
         return Complexnumbers (self.a + operand.a, self.b + operand.b)
     
-    def __subtract__(self, operand):
+    def __sub__(self, operand):
         return Complexnumbers (self.a - operand.a, self.b - operand.b)
     
-    def __multiplication__(self, operand):
+    def __mul__(self, operand):
         return Complexnumbers(self.a * operand.a - self.b * operand.b, self.a * operand.b + self.b * operand.a)
     
     def __neg__(self):
